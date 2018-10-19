@@ -1,0 +1,24 @@
+*{margin:0;padding:0;}
+body {background-color: linen;color: black }
+article {padding: 50px ;width: 760px ;margin: 0 auto ;background-color: white;line-height: 50px}
+
+header {text-align: center ;border-bottom:1px dashed #DDD }
+header h1{font-size: 24px ;color: black;border: 2px solid #DDD  }
+
+section h2 {font-size: 18px ;color: black;line-height: 30px;background: url("img/beijing.png");
+    background-repeat: no-repeat;padding: 0  0  0 10px; }
+
+section h3{font-size: 16px ;color: dimgray;line-height: 24px}
+section p {font-size: 14px ;color: dimgray;margin:20px 0 10px  0  ;line-height: 20px }
+img{float:right  ;width: 150px;height:200px ;margin: 10px  30px 0  0 }
+
+.left {width: 500px ;  padding: 0 0 0 20px;}
+dt{width: 250px ;float: left }
+
+@media all and (max-width:768px){
+    article{width:100%;box-sizing: border-box}
+    section figure{width:100%}
+    section figure img{width:100%;}
+    .img{width:100%;float:none;margin:10px 0 0 0}
+    .left{width: 100%}
+}
